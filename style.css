@@ -1,16 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&family=Roboto:wght@500&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@500&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@500&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@500&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@500&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: none;
+    /* border: none; */
     text-decoration: none;
     list-style: none;
     outline: none;
 }
-
-.container{
+/* header */
+.container {
     width: 1312px;
     margin: auto;
 }
+/* начало 1 контейнера */
+.container1 {
+    width: 1300px;
+    height: 577px;
+
+}
+
+.hero {
+    border-radius: 32px;
+    width: Fixed (1, 312px);
+    filter: brightness(60%);
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 90px;
+    color: #F0EBE1;
+    position: relative;
+    top: -600px;
+    margin-left: 139px;
+
+}
+
+.h11 {
+    margin-left: 300px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -640px;
+    color: #F0EBE1;
+    font-family: Roboto;
+    margin: 40px;
+}
+
+.p2 {
+    position: relative;
+    top: -670px;
+}
+
+.p3 {
+    position: relative;
+    top: -700px;
+}
+
+
+.btn1 {
+    margin-left: 555px;
+    position: relative;
+    top: -690px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 24px;
+    background-color: #F29C33;
+    border: none;
+}
+/* конец 1 контейнера */
+
+.container2 {
+    width: 1309px;
+    height: 504px;
+    background-color: #C4E5FC;
+    position: relative;
+    top: 200px;
+    border-radius: 24px;
+}
+
+.btn2 {
+    border-radius: 24px;
+    padding: 12px 24px 12px 24px;
+    border-color: black;
+    background-color: #C4E5FC;
+    position: relative;
+    top: 400px;
+    margin-left: 40px;
+    font-family: Roboto;
+}
+
+.pp {
+    position: relative;
+    top: 200px;
+    color: rgb(35, 34, 34);
+    opacity: 80%;
+    margin-right: 760px;
+    top: 220px;
+    font-family: Roboto;
+    font-weight: 100;
+
+
+}
+
+.h2 {
+    position: relative;
+    top: 12px;
+    margin-left: 45px;
+    font-family: Montserrat;
+    font-size: 40px;
+}
+
+.btn3 {
+    padding: 4px 8px 4px 8px;
+    border-radius: 12px;
+    position: relative;
+    top: -136px;
+    margin-left: 44px;
+    background-color: #EE6352;
+    color: #F0EBE1;
+    border: none;
+}
+
+.food {
+    position: relative;
+    top: -220px;
+    margin-left: 700px;
+}
+
+h2 {
+    position: relative;
+    top: -260px;
+    margin-left: 1140px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+hr {
+    width: 450px;
+    position: relative;
+    top: -200px;
+    margin-left: 830px;
+    color: rgb(75, 70, 70);
+    opacity: 16%;
+}
+
+.lunch {
+    position: relative;
+    top: -200px;
+    margin-left: 826px;
+}
+
+.hr2 {
+    position: relative;
+    top: -180px;
+}
+
+.h2lunch {
+    position: relative;
+    top: -235px;
+    left: 38px;
+}
+
+.dinner {
+    position: relative;
+    top: -180px;
+    margin-left: 825px;
+}
+
+.h2dinner {
+    position: relative;
+    top: -220px;
+    margin-left: 1169px;
+}
+
+.hr3 {
+    position: relative;
+    top: -170px;
+}
+
+.desert {
+    position: relative;
+    top: -170px;
+    margin-left: 830px;
+}
+
+.h2desert {
+    position: relative;
+    top: -210px;
+    margin-left: 1171px;
+}
+
+.hr4 {
+    position: relative;
+    top: -160px;
+}
+
+.bite{
+    position: relative;
+    top: -160px;
+    margin-left: 830px;
+}
+.hr5{
+position: relative;
+top: -150px;
+}
+
+.h2bite{
+    position: relative;
+    top: -195px;
+}
+/* конец 2 контейнера */
